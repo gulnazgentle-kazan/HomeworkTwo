@@ -10,6 +10,7 @@
 
 Console.WriteLine("Введите любое целое число");
 int number = Convert.ToInt32(Console.ReadLine());
+
 // Для положительных чисел
 if (number < 100 && number > 0)
 {
